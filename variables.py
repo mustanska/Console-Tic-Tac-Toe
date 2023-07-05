@@ -4,5 +4,6 @@ SIZE = 3
 
 players = get_players()
 
-board_position = [[i + j for j in range(SIZE)] for i in range(1, SIZE * SIZE + 1, 3)]
+board_positions = [[str(i + j) for j in range(SIZE)] for i in range(1, SIZE * SIZE + 1, 3)]
 
+board = [[" " for j in range(SIZE)] for i in range(1, SIZE * SIZE + 1, 3)]
