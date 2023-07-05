@@ -1,5 +1,3 @@
-from operator import itemgetter
-
 from colorama import Fore
 
 from validation_functions import is_empty_spaces, is_valid_position
@@ -102,6 +100,7 @@ def check_secondary_diagonal(field, symbol):
 # A function for start the game
 def start_game(field):
     is_winner = False
+    player = ""
 
     while is_empty_spaces(field) and not is_winner:
         for name, symbol in players.items():
@@ -116,6 +115,7 @@ def start_game(field):
                 continue
 
             field[row][col] = symbol
+            player = name
 
             is_winner = winner_checking(field, row, col, symbol)
 
@@ -128,3 +128,15 @@ def start_game(field):
             if not is_empty_spaces(field):
                 print(Fore.BLUE + "There is no more empty spaces. The game is over!" + Fore.RESET)
                 break
+
+    sort_players(player)
+
+
+# A function that sort the players according to who was the last player
+def sort_players(last_player):
+    symbol = players[last_player]
+
+    del players[last_player]
+
+    players[last_player] = symbol
+
