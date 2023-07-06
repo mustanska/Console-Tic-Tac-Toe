@@ -10,13 +10,13 @@ The winner is the one who has 3 consecutive positions with his symbol in one of 
 Play the game directly from here: <a href='https://replit.com/@mustanska/ConsoleTicTacToe'>Console Tic Tac Toe</a> and have fun.
 
 Winner - all positions:
-![row](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/5c93cbbd-cfd6-4711-87da-5680fa3eef54)
 
+![row](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/5c93cbbd-cfd6-4711-87da-5680fa3eef54)
 ![column](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/3af217da-256d-40d3-a96d-11d01b5b65ec)
 
 ![primary_diagonal](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/5bca9849-a453-4bdf-9c22-1ab5a3078f54)
-
 ![secondary_diagonal](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/18d94104-246a-4078-be85-48dac56fa6cf)
 
 When there are no empty spaces:
+
 ![no_empty](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/18ad37fc-aef1-4b23-9974-c8d612733e17)
