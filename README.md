@@ -1,5 +1,5 @@
 # Console-Tic-Tac-Toe
-<img src="![icon](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/e34ec62d-127f-425f-a71f-2661fd93c819)" class="center">
+ <div class="center">![icon](https://github.com/mustanska/Console-Tic-Tac-Toe/assets/122823838/e34ec62d-127f-425f-a71f-2661fd93c819)</div>
 
 This console game was created during my education at Software University. It is a simple version of "Tic-Tac-Toe" game.
 
